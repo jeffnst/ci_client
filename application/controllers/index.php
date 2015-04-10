@@ -14,9 +14,9 @@
 		}
 		function login(){
 			
-			if(isset($_GET["username"])){
-				$username=$_GET['username'];
-				$password=$_GET['password'];
+			if(isset($_POST["username"])){
+				$username=$_POST['username'];
+				$password=$_POST['password'];
 				
 				//echo $username."&".$password;
 			
@@ -34,7 +34,7 @@
 				//curl_setopt($client, CURLOPT_SSL_VERIFYPEER, FALSE);
 				curl_setopt($client, CURLOPT_HEADER, 0);
 				//curl_setopt($client, CURLOPT_POST,1); // method ที่เราจะส่ง เป็น get หรือ post
-				curl_setopt($client, CURLOPT_CUSTOMREQUEST, 'GET');
+				curl_setopt($client, CURLOPT_CUSTOMREQUEST, 'POST');
 				curl_setopt($client, CURLOPT_POSTFIELDS,$data); // paremeter สำหรับส่งไปยังไฟล์ ที่กำหนด
 				curl_setopt($client, CURLOPT_URL,$url);
 				curl_setopt($client, CURLOPT_RETURNTRANSFER,1);
