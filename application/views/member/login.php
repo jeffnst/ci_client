@@ -6,9 +6,9 @@
 <div class="row ">
 	<div class="col-md-9 ">
 		<div class="row ">
-			<div class="col-md-6 col-md-offset-5  box-head">
-				<div class="col-md-12 col-sm-12 ">	
-						<label style="text-align: center; margin-left:5%"><h1>ViA Card (Thailand)</h1></label>
+			<div class="col-md-6 col-md-offset-5  box-head"><!-- col-md-12 col-sm-12 col-md-offset-5 style="text-align: center; margin-left:5%" -->
+				<div class="">	
+						<label ><img alt="" src="<?php echo base_url()?>images/viacard-logo.png"></label>
 				</div>
 			</div>
   			<div class="col-md-6 col-md-offset-5 bg-default box">
