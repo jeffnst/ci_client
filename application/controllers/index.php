@@ -9,7 +9,7 @@
 		
 		function index(){
 			
-			$this->load->view('login');
+			$this->load->view('member/login');
 			
 		}
 		function login(){

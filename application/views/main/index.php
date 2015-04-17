@@ -47,7 +47,7 @@
      </div>
 	
 </div>
-<!-- footer -->
 
+<!-- footer -->
 <?php $this->view('include/footer');?>
 

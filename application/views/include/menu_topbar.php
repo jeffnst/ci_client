@@ -14,7 +14,7 @@
             <li><a href="<?php echo base_url();?>index.php/menu/home">Home</a></li>
             <li><a href="<?php echo base_url();?>index.php/menu/about">About</a></li>
             <li><a href="<?php echo site_url('menu/contact');?>">Contact us</a></li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">#</a></li>
@@ -25,12 +25,12 @@
                 <li><a href="#">#</a></li>
                 <li><a href="#">#</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="<?php echo site_url('menu/login');?>">Log In</a></li>
             <li><a href="<?php echo site_url('menu/register');?>">Register</a></li>
-            <li class="active"><a href="./">Up to top <span class="sr-only">(current)</span></a></li>
+            
           </ul>
         </div><!--/.nav-collapse -->
       </div>
