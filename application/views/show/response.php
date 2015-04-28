@@ -9,23 +9,21 @@
 	<div class="col-md-9">
 		<div class="row">
 			<div class="col-md-9 col-md-offset-5">
-				<h1>ViA Card (Thailand)</h1>
+				<h1></h1>
 			</div>
 		</div>
 	</div>
 </div>		
-
+<br><br>
 <div class="row">
 	<div class="col-md-9">
 		<div class="row">
-  			<div class="col-md-9 col-md-offset-4">
-  				<?php $this->view($content); ?>
+  			<div class="col-md-9 col-md-offset-5 ">
+  				<?php echo $content ; ?>
   			</div>	
 		</div>		
 	</div>
 </div>
 </div>
 <!-- footer -->
-</body>
-</html>
-<?php //$this->view('include/footer');?>
+<?php $this->view('include/footer');?>
